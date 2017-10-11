@@ -12,3 +12,8 @@ def show
       end
   
 end
+
+def new
+  @movie = Movie.new
+  # default: render 'new' template
+end 
